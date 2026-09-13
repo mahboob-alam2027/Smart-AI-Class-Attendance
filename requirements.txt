@@ -1,0 +1,16 @@
+# Utilities
+numpy
+pandas
+scikit-learn          # Face Recognition
+dlib-bin              # image processing tools/ face shape, structure 
+# Github repo "ageitgey/face_recognition_model"
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0       # used to install Github repo (or setuptools)
+
+supabase    # provides free data bases
+bcrypt      # provides hashing method
+
+segno       # make QR code
+pillow      # used in image pre-processing
+
+streamlit   # used for app dev in ML
