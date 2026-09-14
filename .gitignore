@@ -1,0 +1,14 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.env
+.vscode
+
+*.pyc
+.DS_Store
+__pychache__/
+
+venv/
+
+.streamlit/
+
+dist/
+
