@@ -1,3 +1,7 @@
+streamlit
+
+
+
 # Utilities
 numpy
 pandas
@@ -13,4 +17,9 @@ bcrypt      # provides hashing method
 segno       # make QR code
 pillow      # used in image pre-processing
 
-streamlit   # used for app dev in ML
+
+
+
+# Library for Voice Pipeline
+librosa
+resemblyzer
