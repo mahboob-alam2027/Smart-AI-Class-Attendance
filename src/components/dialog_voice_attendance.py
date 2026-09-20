@@ -8,7 +8,6 @@ from src.components.dialog_attendance_results import attendance_result_dialog
 
 
 
-
 @st.dialog('Voice Attendance')
 
 def voice_attendance_dialog(selected_subject_id):
@@ -68,5 +67,6 @@ def voice_attendance_dialog(selected_subject_id):
     if st.session_state.get('voice_attendance_results'):
         st.divider()
         df_results, logs = st.session_state.voice_attendance_results
-        show_attendance_results(df_results, logs)
+        #show_attendance_results(df_results, logs)
+        attendance_result_dialog(df_results, logs)
 
