@@ -3,7 +3,8 @@ from src.pipelines.voice_pipeline import process_bulk_audio
 from src.database.config import supabase
 from datetime import datetime
 import pandas as pd
-from src.components.dialog_attendance_results import show_attendance_results
+#from src.components.dialog_attendance_results import show_attendance_results
+from src.components.dialog_attendance_results import attendance_result_dialog
 
 
 
